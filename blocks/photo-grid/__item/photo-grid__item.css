@@ -2,8 +2,13 @@
 .photo-grid__item {
     max-width: 284px;
     margin-bottom: 16px;
+    cursor: pointer;
+    border-radius: 16px;
 }
 
+.photo-grid__item:hover {
+  transform: scale(1.2);
+}
 
 @media (min-width: 1280px) and (max-width: 1439px) {
     .photo-grid__item {
