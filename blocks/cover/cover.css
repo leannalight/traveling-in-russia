@@ -1,0 +1,50 @@
+@import url('../cover/__container/cover__container.css');
+@import url('../cover/__container/__item/cover__item.css');
+
+.cover {
+    max-width: 82%;
+    min-height: 594px;
+    margin: 0 auto;
+    padding-bottom: 11%;
+    /* 160px = 11% от ширины страницы (родителя) */
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .cover {
+    max-width: 92.5%;
+    padding-bottom: 160px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    max-width: 100%;
+    min-height: 562px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+    max-width: 100%;
+    min-height: 500px;
+    padding-bottom: 13%;
+    /* 102px = 13% от ширитны страницы */
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .cover {
+    max-width: 425px;
+    min-height: auto;
+    padding-bottom: 64px;
+  }
+}
+
+@media (min-width : 375px) and (max-width: 424px)  {
+  .cover {
+    max-width: 375px;
+    min-height: 272px;
+    padding-bottom: 64px;
+  }
+}
+  

@@ -1,0 +1,13 @@
+@import url('../__content-row/__text/intro__text.css');
+
+.intro__content-row {
+    max-width: 100%;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+@media (min-width: 375px) and (max-width: 424px)  {
+    .intro__content-row {
+    padding-bottom: 32px;    
+    }
+}

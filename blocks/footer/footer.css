@@ -1,0 +1,57 @@
+@import url('../footer/__menu/footer__menu.css');
+@import url('../footer/__copyright/footer__copyright.css');
+
+.footer {
+    max-width: 82%;
+    min-height: 23px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 3.3%;
+    /* 48px= 3.3% от ширины родителя (1440px) */
+   
+}
+
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .footer {
+      max-width: 92.5%;
+    }
+}
+  
+    
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .footer {
+        max-width: 90.7%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        max-width: 94%;
+        min-height: 28px;
+        padding-bottom: 3%;
+        /* 24px = 3% от ширины родителя (768px) */
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        justify-content: left;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px)  {
+    .footer {
+        max-width: 75%;
+        margin: 0;
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 4%;
+        padding-top: 0;
+        padding-right: 20.5%;
+        padding-bottom: 6.4%;
+       
+    }
+}

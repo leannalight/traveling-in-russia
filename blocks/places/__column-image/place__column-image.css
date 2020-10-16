@@ -1,0 +1,11 @@
+@import url('../__column-image/__title/place__title.css');
+@import url('../__column-image/__image/place__image.css');
+
+.place__column-image {
+    width: 100%;
+    margin: 0;
+   /* padding-right: 40px; */
+}
+
+
+  

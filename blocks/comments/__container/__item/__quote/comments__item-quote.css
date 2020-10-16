@@ -1,0 +1,56 @@
+.comments__item-quote {
+    max-width: 382px;
+    margin: 0;
+    padding-right: 19px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.comments__item-quote:last-child {
+    padding-right: 0;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .comments__item-quote {
+        max-width: 296px;
+        padding-right: 19px;
+    }
+    .comments__item-quote:last-child {
+        padding-right: 0;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comments__item-quote {
+        max-width: 382px;
+        padding-right: 0;
+        font-size: 16px;
+        line-height: 23px;
+        order: 3;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .comments__item-quote {
+        max-width: 343px;
+        padding-right: 0;
+        font-size: 16px;
+        line-height: 23px;
+        order: 3;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px)  {
+    .comments__item-quote{
+        max-width: 343px;
+        padding-right: 0;
+        font-size: 16px;
+        line-height: 23px;
+        order: 3;
+    }
+}

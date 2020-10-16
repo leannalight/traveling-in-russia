@@ -1,0 +1,93 @@
+@import url('../photo-grid/__item/photo-grid__item.css');
+
+/*
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 82.2%;
+    margin: 0 auto 92px;
+
+}
+*/
+
+.photo-grid {
+    max-width: 90%;
+    margin: 0 auto 92px;
+    display: grid;
+    grid-template-rows: 188px 188px 188px ;
+    grid-template-columns: 284px 284px 284px 284px ;
+    grid-gap: 16px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    justify-content: center;
+}
+
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .photo-grid {
+        max-width: 90%;
+        margin: 0 auto 92px;
+        display: grid;
+        grid-template-rows: 188px 188px 188px ;
+        grid-template-columns: 284px 284px 284px 284px ;
+        grid-gap: 16px;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        justify-content: center;
+    }
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .photo-grid {
+        max-width: 90%;
+        margin: 0 auto 102px;
+        display: grid;
+        grid-template-rows: 200px 200px 200px 200px;
+        grid-template-columns: 300px 300px 300px;
+        grid-gap: 14px;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        justify-content: center;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .photo-grid {
+        max-width: 720px;
+        margin: 0 auto 102px;
+        display: grid;
+        grid-template-rows: 234px 234px 234px 234px 234px 234px;
+        grid-template-columns: 352px 352px;
+        grid-gap: 16px;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        justify-content: center;
+    }
+  }
+  
+  @media (min-width: 425px) and (max-width: 767px) {
+    .photo-grid {
+        max-width: 343px;
+        margin: 0 auto 64px;
+        display: grid;
+        grid-template-rows: 232px 232px 232px 232px 232px 232px 232px 232px 232px 232px 232px 232px;
+        grid-template-columns: 343px;
+        grid-gap: 16px;
+        justify-content: center;
+    }
+  }
+
+  @media (min-width : 375px) and (max-width: 424px)  {
+    .photo-grid {
+        max-width: 343px;
+        margin: 0 auto 64px;
+        display: grid;
+        grid-template-rows: 232px 232px 232px 232px 232px 232px 232px 232px 232px 232px 232px 232px;
+        grid-template-columns: 343px;
+        grid-gap: 16px;
+        justify-content: center;
+    }
+  }
+  
+  

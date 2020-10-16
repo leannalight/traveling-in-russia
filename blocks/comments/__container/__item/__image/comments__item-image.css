@@ -1,0 +1,27 @@
+.comments__item-image {
+    max-width: 148px;
+    min-height: 98px;
+    margin: 0;
+    padding-bottom: 42px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comments__item-image  {
+        padding-bottom: 0;
+        order: 1;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .comments__item-image  {
+        padding-bottom: 0;
+        order: 1;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px)  {
+    .comments__item-image  {
+        padding-bottom: 0;
+        order: 1;
+    }
+}

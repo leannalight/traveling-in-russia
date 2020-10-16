@@ -1,0 +1,36 @@
+@import url('../comments/__content-title/comments__content-title.css');
+@import url('../comments/__content-subtitle/comments__content-subtitle.css');
+@import url('../comments/__container/comments__container.css');
+@import url('../comments/__container/__item/comments__item.css');
+
+.comments {
+    max-width: 82%;
+    margin: 0 auto;
+    padding-bottom: 102px;
+}
+
+  
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .comments  {
+        max-width: 90.6%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comments  {
+        max-width: 86%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .comments  {
+        max-width: 91.5%;
+        padding-bottom: 48px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px)  {
+    .comments  {
+        max-width: 91.5%;
+        padding-bottom: 48px;
+    }
+}

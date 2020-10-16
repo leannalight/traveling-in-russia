@@ -1,0 +1,46 @@
+@import url('../__content/__duration/video__duration.css');
+@import url('../__content/__title/video__title.css');
+@import url('../__content/__subtitle/video__subtitle.css');
+
+.video__content {
+    position: absolute;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    /* 30px= 5% от ширины родителя (video__item= 583px) */
+    bottom:0;
+    z-index: 8;
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .video__content {
+        padding-left: 5%;
+        padding-bottom: 5%; 
+    }
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .video__content {
+        padding-left: 30px;
+        padding-bottom: 35px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .video__content {
+        padding-left: 24px;
+        padding-bottom: 24px;
+    }
+  }
+  
+  @media (min-width: 425px) and (max-width: 767px) {
+    .video__content {
+        margin-left: 24px;
+        padding-bottom: 24px; 
+    }
+  }
+  
+  @media (max-width: 424px)  {
+    .video__content {
+        margin-left: 24px;
+        padding-bottom: 24px;
+    }
+  }

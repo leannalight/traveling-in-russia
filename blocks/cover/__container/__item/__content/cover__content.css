@@ -1,0 +1,52 @@
+@import url('../__content/__title/cover__title.css');
+@import url('../__content/__subtitle/cover__subtitle.css');
+
+.cover__content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    bottom: 0;
+    z-index: 8;
+
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .cover__content  {
+        left: 25%;
+        right: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cover__content {
+        left: 20%;
+        right: 20%;
+        padding-bottom: 40px;
+       
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .cover__content {
+        left: 20%;
+        right: 20%;
+     /*   top: -50%;
+        transform: translate(-50%);*/
+        padding-bottom: 24px;
+    }
+}
+  
+@media (min-width : 375px) and (max-width: 424px)  {
+    .cover__content {
+        left: 20%;
+        right: 20%;
+    /*    top: -50%;
+        transform: translate(-50%);*/
+        padding-bottom: 24px;
+    }
+}
+  
+  

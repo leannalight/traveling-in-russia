@@ -1,0 +1,53 @@
+@import url('../__item/__image/comments__item-image.css');
+@import url('../__item/__quote/comments__item-quote.css');
+@import url('../__item/__author/comments__item-author.css');
+
+.comments__item {
+    margin: 0;
+    max-width: 382px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .comments__item {
+        max-width: 296px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comments__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 382px;
+        padding-bottom: 47px;
+    }
+    .comments__item:last-child {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .comments__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 343px;
+        padding-bottom: 47px;
+    }
+    .comments__item:last-child {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .comments__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 343px;
+        padding-bottom: 47px;
+    }
+    .comments__item:last-child {
+        padding-bottom: 0;
+    }
+}

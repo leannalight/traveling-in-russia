@@ -1,0 +1,5 @@
+@import url('../__container/__item/cover__item.css');
+
+.cover__container {
+    max-width: 100%;
+}

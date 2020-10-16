@@ -1,0 +1,49 @@
+.intro__text-sublines {
+    display: block;
+    margin: 0;
+    max-width: 383px;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.intro__span-sublines {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro__text-sublines {
+        max-width: 720px;
+    }
+}
+  
+@media (min-width: 425px) and (max-width: 767px) {
+    .intro__text-sublines {
+    
+    }
+}
+  
+@media (min-width: 375px) and (max-width: 424px)  {
+    .intro__text-sublines {
+        max-width: 343px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .intro__span-sublines {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

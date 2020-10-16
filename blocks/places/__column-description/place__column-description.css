@@ -1,0 +1,8 @@
+@import url('../__column-description/__website/place__website.css');
+@import url('../__column-description/__paragraph/place__paragraph.css');
+
+.place__column-description {
+    width: 100%;
+    min-height: auto;
+    margin: 0;
+}

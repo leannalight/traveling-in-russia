@@ -1,0 +1,45 @@
+@import url('../video/content-title/video__content-title.css');
+@import url('../video/content-subtitle/video__content-subtitle.css');
+@import url('../video/__container/video__container.css');
+
+.video {
+    max-width: 82%;
+    min-height: 648px;
+    margin: 0 auto;
+    padding-bottom: 7%;
+
+    /* 102px = 7% от ширины страницы */
+
+}
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .video {
+        min-width: 96%;
+        max-width: 82%;
+        min-height: 614px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .video {
+        min-width: 94%;
+        max-width: 96%;
+        min-height: 442px;
+    }
+  }
+  
+  @media (min-width: 425px) and (max-width: 767px) {
+    .video {
+        
+    }
+  }
+  
+  @media (min-width: 375px) and (max-width: 424px)  {
+    .video {
+        min-width: 91.5%;
+        min-height: 598px;
+        padding-bottom: 17%;
+
+        /*64px= 17% от ширины страницы */
+    }
+  }

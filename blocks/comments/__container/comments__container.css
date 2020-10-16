@@ -1,0 +1,30 @@
+@import url('../__item/comments__item.css');
+
+.comments__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comments__container {
+        flex-direction: column;
+        max-width: 382px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .comments__container {
+        flex-direction: column;
+        max-width: 343px;
+    }
+}
+
+@media (max-width: 424px) {
+    .comments__container {
+        flex-direction: column;
+        max-width: 343px;
+    }
+}
