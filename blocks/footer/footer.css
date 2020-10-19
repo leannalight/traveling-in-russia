@@ -55,3 +55,16 @@
        
     }
 }
+
+@media screen and (max-width: 320px)  {
+    .footer {
+        max-width: 183px;
+        margin: 0;
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 4%;
+        padding-top: 0;
+        padding-right: 20.5%;
+        padding-bottom: 6.4%;
+    }
+}

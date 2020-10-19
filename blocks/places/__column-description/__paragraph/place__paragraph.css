@@ -10,3 +10,9 @@
     color: #FFFFFF;
 
 }
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        max-width: 100%;
+    }
+}

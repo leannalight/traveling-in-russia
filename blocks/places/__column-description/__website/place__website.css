@@ -1,11 +1,6 @@
 @import url('../__website/__url-heading/place__url-heading.css');
 @import url('../__website/__url/place__url.css');
 
-/*
-.place__website:nth-of-type(1) {
-    padding-top: 60px;
-}
-*/
 .place__website-x {
     margin: 0;
     padding-top: 60px;
@@ -23,3 +18,11 @@
     padding-top: 60px;
 }
 */
+@media screen and (max-width: 320px) {
+    .place__website-x {
+       display: none;
+    }
+    .place__website {
+        display: none;
+     }
+}

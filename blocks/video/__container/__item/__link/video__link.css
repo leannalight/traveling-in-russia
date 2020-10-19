@@ -1,5 +1,6 @@
 @import url('../__link/__icon/_type/video__icon_type_play.css');
 
 .video__link {
-    
+    margin: 0;
+    padding: 0;
 }

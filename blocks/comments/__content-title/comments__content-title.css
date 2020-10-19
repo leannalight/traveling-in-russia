@@ -44,3 +44,11 @@
         line-height: 35px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .comments__content-title  {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

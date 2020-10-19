@@ -4,7 +4,6 @@
 
 .video {
     max-width: 82%;
-    min-height: 648px;
     margin: 0 auto;
     padding-bottom: 7%;
 
@@ -16,7 +15,6 @@
     .video {
         min-width: 96%;
         max-width: 82%;
-        min-height: 614px;
     }
   }
   
@@ -24,22 +22,22 @@
     .video {
         min-width: 94%;
         max-width: 96%;
-        min-height: 442px;
-    }
-  }
-  
-  @media (min-width: 425px) and (max-width: 767px) {
-    .video {
-        
     }
   }
   
   @media (min-width: 375px) and (max-width: 424px)  {
     .video {
         min-width: 91.5%;
-        min-height: 598px;
         padding-bottom: 17%;
 
         /*64px= 17% от ширины страницы */
     }
   }
+
+@media screen and (max-width: 320px)  {
+  .video {
+    min-width: 91.5%;
+    padding-bottom: 17%;
+    margin: 0;
+  }
+}

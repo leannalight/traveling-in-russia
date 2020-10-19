@@ -3,3 +3,10 @@
     max-width: 100%;
     margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .place__image {
+            max-width: 320px;
+            margin: 0;
+        }
+}

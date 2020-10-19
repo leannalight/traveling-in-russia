@@ -40,9 +40,19 @@
     max-width: 343px;
     font-family: Inter;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
   }
 }
-  
+
+@media sreen and (max-width: 320px)  {
+  .cover__subtitle {
+    max-width: 288px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
