@@ -28,14 +28,14 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 424px)  {
+@media screen and (max-width: 424px)  {
     .comments  {
         max-width: 91.5%;
         padding-bottom: 48px;
     }
 }
 
-@media screen and (max-width: 320px)  {
+@media screen and (max-width: 375px)  {
     .comments  {
         max-width: 91.5%;
         padding-bottom: 64px;

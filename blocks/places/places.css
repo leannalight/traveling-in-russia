@@ -55,7 +55,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 424px)  {
+@media screen and (max-width: 424px)  {
   .places {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
@@ -66,7 +66,7 @@
   }
 }
 
-@media screen and (max-width: 320px)  {
+@media screen and (max-width: 375px)  {
   .places {
     display: flex;
     flex-direction: column;

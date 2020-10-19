@@ -36,7 +36,7 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 424px)  {
+@media screen and (max-width: 424px)  {
     .comments__content-title  {
         margin: 0 auto 16px;
         max-width: 343px;
@@ -45,7 +45,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .comments__content-title  {
         max-width: 288px;
         font-size: 32px;

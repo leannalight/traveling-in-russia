@@ -18,7 +18,7 @@
     padding-top: 60px;
 }
 */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .place__website-x {
        display: none;
     }

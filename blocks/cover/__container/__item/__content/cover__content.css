@@ -49,7 +49,7 @@
     }
 }
   
-@media screen and (max-width: 320px)  {
+@media screen and (max-width: 375px)  {
     .cover__content {
     /*    top: -50%;
         transform: translate(-50%);*/

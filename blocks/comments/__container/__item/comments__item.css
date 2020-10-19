@@ -39,7 +39,7 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
     .comments__item {
         display: flex;
         flex-direction: column;
@@ -52,7 +52,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .comments__item {
         display: flex;
         flex-direction: column;

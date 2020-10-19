@@ -90,7 +90,7 @@
     }
   }
   
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .photo-grid {
     display: flex;
     flex-direction: column;
